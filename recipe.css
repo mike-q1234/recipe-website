@@ -1,0 +1,58 @@
+body {
+    background-image: url(../imsges/silverware.jpg);
+    background-image: repeat-y;
+    background-image: fixed;
+    background-image: cover;
+    background-image: white;
+    color: #404040
+    font: 11pt;
+    font-family: Georia,Garamond, serif;
+}
+
+h1  {
+    color: #A4A400 ;
+    background: #f0f0f0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22pt;
+    text-align: center;
+}   
+h2  {
+    color: #A4A400 ;
+    background: #f0f0f0;
+    font-size: 18pt;
+    text-align: left;
+}   
+
+ul  {
+    text-align: text-left;
+}
+
+.tooltip. tooltiptext {
+    width: 160px;
+    bottom: 80%;
+    left: 40%;
+    margin-left: 80px;
+}
+
+. hovertext : before {
+    content: attr(data-hover );
+    visibility: hidden;
+    opacity: 0;
+    width: max-content;
+    background-color: black;
+    color: #fff;
+    text allign : center;
+    border-radius: 5px;
+    padding: 5px 5px;
+    transmition: opacity 1s ease-in-out;
+    position: absolute;
+    left: 0;
+    top: 110%;
+}
+
+p  {
+    background-color: #f8b27e;
+}
+
+footer {
+    font-family: monospace;
